@@ -21,6 +21,21 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>algorithm1-queues.tla</name>
+			<type>1</type>
+			<location>/home/hingo/IdeaProjects/cassandra-accord/accord-core/src/test/TLA+/algorithm1-queues.tla</location>
+		</link>
+		<link>
+			<name>algorithm1-queues2.tla</name>
+			<type>1</type>
+			<location>/home/hingo/IdeaProjects/cassandra-accord/accord-core/src/test/TLA+/algorithm1-queues2.tla</location>
+		</link>
+		<link>
+			<name>algorithm1-simple.tla</name>
+			<type>1</type>
+			<location>/home/hingo/IdeaProjects/cassandra-accord/accord-core/src/test/TLA+/algorithm1-simple.tla</location>
+		</link>
+		<link>
 			<name>algorithm1.tla</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/algorithm1.tla</locationURI>

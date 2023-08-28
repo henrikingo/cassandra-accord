@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
 <stringAttribute key="TLCCmdLineParameters" value=""/>
-<stringAttribute key="configurationName" value="Model_3"/>
+<stringAttribute key="configurationName" value="Model_1"/>
 <intAttribute key="dfidDepth" value="100"/>
 <booleanAttribute key="dfidMode" value="false"/>
 <intAttribute key="distributedFPSetCount" value="0"/>
@@ -11,39 +11,40 @@
 <stringAttribute key="distributedTLCVMArgs" value=""/>
 <intAttribute key="fpBits" value="1"/>
 <intAttribute key="fpIndex" value="1"/>
-<intAttribute key="maxHeapSize" value="25"/>
+<intAttribute key="maxHeapSize" value="38"/>
 <intAttribute key="maxSetSize" value="1000000"/>
 <booleanAttribute key="mcMode" value="true"/>
 <stringAttribute key="modelBehaviorInit" value=""/>
 <stringAttribute key="modelBehaviorNext" value=""/>
 <stringAttribute key="modelBehaviorSpec" value="Spec"/>
 <intAttribute key="modelBehaviorSpecType" value="1"/>
-<stringAttribute key="modelBehaviorVars" value="seq, msg, trx_p, PreAcceptQ, deps, T, PreAcceptOkQ, i, p, now, keys, conflicts, PreAcceptPointer, coordinator, fastPathTrx, keySet, t0, trx, slowTrx, SimpleQ, newTrx, maxt, concurrentTrx, maxtrx, preAccepted, conflictingTrx"/>
+<stringAttribute key="modelBehaviorVars" value="ReplyQidx, seq, PreAcceptQ, CommittedQ, PreAcceptReplyQ, now, Qidx, t0, trx, AcceptQ"/>
 <stringAttribute key="modelComments" value=""/>
 <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
-<listAttribute key="modelCorrectnessInvariants"/>
+<listAttribute key="modelCorrectnessInvariants">
+<listEntry value="1now&lt;MaxTime"/>
+</listAttribute>
 <listAttribute key="modelCorrectnessProperties"/>
 <stringAttribute key="modelExpressionEval" value=""/>
 <stringAttribute key="modelParameterActionConstraint" value=""/>
 <listAttribute key="modelParameterConstants">
-<listEntry value="MaxKey;;100;0;0"/>
-<listEntry value="Nodes;;9;0;0"/>
-<listEntry value="FastElectorate;;5;0;0"/>
-<listEntry value="MaxTrxSize;;3;0;0"/>
-<listEntry value="Coordinators;;3;0;0"/>
+<listEntry value="MaxTrxSize;;2;0;0"/>
+<listEntry value="ReplicationFactor;;1;0;0"/>
+<listEntry value="MaxKey;;3;0;0"/>
 <listEntry value="MaxTime;;120;0;0"/>
-<listEntry value="ReplicationFactor;;3;0;0"/>
+<listEntry value="FastElectorate;;3;0;0"/>
+<listEntry value="Nodes;;3;0;0"/>
 </listAttribute>
 <stringAttribute key="modelParameterContraint" value=""/>
 <listAttribute key="modelParameterDefinitions"/>
 <stringAttribute key="modelParameterModelValues" value="{}"/>
 <stringAttribute key="modelParameterNewDefinitions" value=""/>
-<intAttribute key="numberOfWorkers" value="8"/>
+<intAttribute key="numberOfWorkers" value="1"/>
 <booleanAttribute key="recover" value="false"/>
 <stringAttribute key="result.mail.address" value=""/>
 <intAttribute key="simuAril" value="-1"/>
 <intAttribute key="simuDepth" value="100"/>
 <intAttribute key="simuSeed" value="-1"/>
-<stringAttribute key="specName" value="scratch"/>
+<stringAttribute key="specName" value="algo1"/>
 <stringAttribute key="view" value=""/>
 </launchConfiguration>
